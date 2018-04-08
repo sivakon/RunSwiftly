@@ -32,5 +32,18 @@ Then run
 `swift package update`
 `swift package generate-xcodeproj`
 
+## Step 2 (Using Nifty - numpy like)
+- Install `lapack`
+`brew install lapack`
+- Install `openblas`
+`brew install openblas`
+- Update `Package.swift`
+`.package(url: "https://github.com/nifty-swift/Nifty.git", from: "1.0.0")`
+
+Swift compiler should know the **LDFLAGS** variable. (Taken from `Nifty` package from Github.)
+`swift build -Xlinker -L/usr/local/opt/lapack/lib -Xlinker -L/usr/local/opt/openblas/lib`
+
+In XCode, under **Project**, we add linker flags in **Other Linker flags** section. Add all the flags mentioned above.
+
 
 

@@ -38,6 +38,24 @@
         }
       },
       {
+        "package": "Nifty",
+        "repositoryURL": "https://github.com/nifty-swift/Nifty.git",
+        "state": {
+          "branch": null,
+          "revision": "87818106ab294d6ed19f741b03d90b978941a322",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "Nifty-libs",
+        "repositoryURL": "https://github.com/nifty-swift/Nifty-libs.git",
+        "state": {
+          "branch": null,
+          "revision": "26b5e93b331864a306ed6bdb2734ea98527ae0d1",
+          "version": "1.0.0"
+        }
+      },
+      {
         "package": "Node",
         "repositoryURL": "https://github.com/vapor/node.git",
         "state": {
